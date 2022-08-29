@@ -1,0 +1,21 @@
+const calc = () => {
+    var n1 = 18;
+    var n2 = 12;
+    
+    console.log(" Escolha uma operação: \n1: Adição \n2: Subtração \n3: Divsão \n4: Multiplicação. ");
+    
+    var operação = 3;
+
+    if (operação == 1 ) {
+        console.log ('a soma de', n1 , 'e' , n2 , 'é:', n1+n2);
+    }  if (operação == 2 ) {
+        console.log ( ' A subtração de' , n1 , 'e' , n2 , 'é:' , n1-n2);
+    }  if (operação == 3 ) {
+        console.log (' A divisão de' , n1 , 'e',  n2 , 'é:' , n1/n2);
+        console.log (' Restam:' , n1%n2);
+    }  if (operação == 4 ){
+        console.log (' A multiplicação de' ,  n1 , 'e',  n2 ,'é:' , n1*n2);
+    
+    }
+};
+calc ();
