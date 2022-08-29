@@ -15,7 +15,9 @@ const calc = () => {
         console.log (' Restam:' , n1%n2);
     }  if (operação == 4 ){
         console.log (' A multiplicação de' ,  n1 , 'e',  n2 ,'é:' , n1*n2);
+    } else 
+        console.log (' Aplicação encerrada. ')
     
-    }
-};
+    };
+
 calc ();
